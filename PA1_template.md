@@ -27,7 +27,7 @@ mean_withoutna<-mean(totalperday)
 median_withoutna<-median(totalperday)
 ```
 
-Its mean is 9354.2295082 and its median is 10395.  
+Its mean is $9354.2295082$ and its median is $10395$.  
 
 ## What is the average daily activity pattern?
 
@@ -54,7 +54,7 @@ avgperinterval[max_interval]
 ## 206.1698
 ```
 
-Interval 835 contains the maximum average number of steps 206.1698113. 
+Interval $835$ contains the maximum average number of steps $206.1698113$. 
 
 
 ## Imputing missing values
@@ -95,7 +95,7 @@ mean_withna<-mean(totalperday_interp)
 median_withna<-median(totalperday_interp)
 ```
 
-Its mean is 1.0765639\times 10^{4} and its median is 1.0762\times 10^{4}. By imputing the missing values, the mean has changed by 1411.4098361 and the median by 367. It appears that the median is more robust towards imputing values than the mean for the chosen filling strategy.
+Its mean is $1.0765639\times 10^{4}$ and its median is $1.0762\times 10^{4}$. By imputing the missing values, the mean has changed by $1411.4098361$ and the median by $367$. It appears that the median is more robust towards imputing values than the mean for the chosen filling strategy.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 

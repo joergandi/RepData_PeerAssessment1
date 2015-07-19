@@ -25,7 +25,7 @@ mean_withoutna<-mean(totalperday)
 median_withoutna<-median(totalperday)
 ```
 
-Its mean is `r mean_withoutna` and its median is `r median_withoutna`.  
+Its mean is $`r mean_withoutna`$ and its median is $`r median_withoutna`$.  
 
 ## What is the average daily activity pattern?
 
@@ -41,7 +41,7 @@ max_interval <-which.max(avgperinterval)
 avgperinterval[max_interval]
 ```
 
-Interval `r n[max_interval]` contains the maximum average number of steps `r avgperinterval[max_interval]`. 
+Interval $`r n[max_interval]`$ contains the maximum average number of steps $`r avgperinterval[max_interval]`$. 
 
 
 ## Imputing missing values
@@ -74,7 +74,7 @@ mean_withna<-mean(totalperday_interp)
 median_withna<-median(totalperday_interp)
 ```
 
-Its mean is `r mean_withna` and its median is `r median_withna`. By imputing the missing values, the mean has changed by `r mean_withna-mean_withoutna` and the median by `r median_withna-median_withoutna`. It appears that the median is more robust towards imputing values than the mean for the chosen filling strategy.
+Its mean is $`r mean_withna`$ and its median is $`r median_withna`$. By imputing the missing values, the mean has changed by $`r mean_withna-mean_withoutna`$ and the median by $`r median_withna-median_withoutna`$. It appears that the median is more robust towards imputing values than the mean for the chosen filling strategy.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
